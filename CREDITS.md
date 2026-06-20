@@ -1,5 +1,11 @@
 # Image credits
 
+## Hero photograph (used with authorization)
+
+| File | Description | Source | License |
+|------|-------------|--------|---------|
+| `makurap_isa_01.jpg` | Makurap community in the village | Instituto Socioambiental — *Povos Indígenas no Brasil* (https://pib.socioambiental.org/pt/Povo:Makurap) | © ISA, used with authorization |
+
 ## Landing-page photographs (people, culture, territory)
 
 These authentic Makurap images come from **Wikimedia Commons**, uploaded as own

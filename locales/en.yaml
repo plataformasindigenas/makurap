@@ -60,9 +60,9 @@ card_corpus_label: "texts"
 card_recordings_title: "Recordings"
 card_recordings_desc: "Audio corpus with recordings of words and expressions in the Makurap language."
 card_recordings_label: "recordings"
-card_videos_title: "Videos"
-card_videos_desc: "Video recordings of Makurap rituals, ceremonies, and cultural practices community recordings."
-card_videos_label: "videos"
+card_videos_title: "Oral Corpus"
+card_videos_desc: "Makurap oral narratives in audio — myths and stories recorded by the community."
+card_videos_label: "narratives"
 
 # Dictionary page
 dict_title: "Makurap Dictionary"
@@ -228,7 +228,7 @@ references_label: "references"
 
 # Navigation (recordings/videos)
 nav_recordings: "Recordings"
-nav_videos: "Videos"
+nav_videos: "Oral Corpus"
 
 # Terradoc UI
 nav_menu_label: "Menu"
@@ -254,7 +254,7 @@ index_sections_title: "Explore"
 index_view_all_dictionary: "View dictionary"
 index_view_all_encyclopedia: "View encyclopedia"
 index_view_all_fauna: "View fauna"
-index_view_all_videos: "View videos"
+index_view_all_videos: "Listen to the oral corpus"
 index_gallery_title: "Images & Sounds"
 index_gallery_subtitle: "Visual and audio recordings of Makurap culture"
 index_about_subtitle: "Learn about the platform"
@@ -280,10 +280,12 @@ stat_corpus_entries: "texts"
 
 # Recordings page
 # Videos page
-vid_title: "Videos"
-vid_subtitle: "Video recordings of Makurap culture"
-vid_count_label: "videos"
-vid_watch: "Watch on YouTube"
+vid_title: "Oral Corpus"
+vid_subtitle: "Makurap oral narratives, in audio"
+vid_count_label: "narratives"
+vid_watch: "Listen"
+oc_note: >-
+  These are audio recordings of Makurap oral narratives. Except for the creation myth (“The Beginning of the World”), the stories are not documented in published literature and are community recordings — draft material, pending consent and review.
 vid_filter_all: "All categories"
 
 # Recordings page
@@ -339,6 +341,7 @@ about_tool_kodudo: "Template rendering engine"
 # Image credits
 about_credits_heading: "Image credits"
 about_credits: >
+  <p>The hero (header) photo is from the <strong>Instituto Socioambiental — Povos Indígenas no Brasil</strong> archive, used with authorization.</p>
   <p>The people, culture and territory photographs on the home page are images
   of the Makurap themselves, uploaded to <a href="https://commons.wikimedia.org/wiki/Category:Macurapes">Wikimedia Commons</a>
   by <strong>Jeffeson Tupari Makurap</strong> (CC&nbsp;BY-SA&nbsp;4.0) — using imagery that

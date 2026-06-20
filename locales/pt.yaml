@@ -60,9 +60,9 @@ card_corpus_label: "textos"
 card_recordings_title: "Gravações"
 card_recordings_desc: "Corpus sonoro com gravações de palavras e expressões na língua Makurap."
 card_recordings_label: "gravações"
-card_videos_title: "Vídeos"
-card_videos_desc: "Registros em vídeo de rituais, cerimônias e práticas culturais do povo Makurap registros comunitários."
-card_videos_label: "vídeos"
+card_videos_title: "Corpus Oral"
+card_videos_desc: "Narrativas orais do povo Makurap em áudio — mitos e histórias registrados pela comunidade."
+card_videos_label: "narrativas"
 
 # Dictionary page
 dict_title: "Dicionário Makurap"
@@ -228,7 +228,7 @@ references_label: "referências"
 
 # Navigation (recordings/videos)
 nav_recordings: "Gravações"
-nav_videos: "Vídeos"
+nav_videos: "Corpus Oral"
 
 # Terradoc UI
 nav_menu_label: "Menu"
@@ -254,7 +254,7 @@ index_sections_title: "Explorar"
 index_view_all_dictionary: "Ver dicionário"
 index_view_all_encyclopedia: "Ver enciclopédia"
 index_view_all_fauna: "Ver fauna"
-index_view_all_videos: "Ver vídeos"
+index_view_all_videos: "Ouvir o corpus oral"
 index_gallery_title: "Imagens & Sons"
 index_gallery_subtitle: "Registros visuais e sonoros da cultura Makurap"
 index_about_subtitle: "Conheça a plataforma"
@@ -280,10 +280,12 @@ stat_corpus_entries: "textos"
 
 # Recordings page
 # Videos page
-vid_title: "Vídeos"
-vid_subtitle: "Narrativas e registros em vídeo da cultura Makurap"
-vid_count_label: "vídeos"
-vid_watch: "Assistir"
+vid_title: "Corpus Oral"
+vid_subtitle: "Narrativas orais do povo Makurap, em áudio"
+vid_count_label: "narrativas"
+vid_watch: "Ouvir"
+oc_note: >-
+  São gravações de áudio das narrativas orais Makurap. Com exceção do mito de criação (“Surgimento do Mundo”), as histórias não estão documentadas na literatura publicada e são registros da comunidade — material em rascunho, sujeito a consentimento e revisão.
 vid_filter_all: "Todas as categorias"
 
 # Recordings page
@@ -338,6 +340,7 @@ about_tool_kodudo: "Motor de renderização de templates"
 # Image credits
 about_credits_heading: "Créditos das imagens"
 about_credits: >
+  <p>A foto principal (cabeçalho) é do acervo do <strong>Instituto Socioambiental — Povos Indígenas no Brasil</strong>, usada com autorização.</p>
   <p>As fotografias de pessoas, cultura e território na página inicial são
   imagens do próprio povo Makurap, enviadas ao <a href="https://commons.wikimedia.org/wiki/Category:Macurapes">Wikimedia Commons</a>
   por <strong>Jeffeson Tupari Makurap</strong> (licença CC&nbsp;BY-SA&nbsp;4.0) — o uso de

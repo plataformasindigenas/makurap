@@ -9,7 +9,7 @@
 
 - youtube_id: surgimento-do-mundo
   title: "Surgimento do Mundo para o povo Makurap"
-  source_url: "videos/surgimento-do-mundo.mp4"
+  source_url: "audio/surgimento-do-mundo.mp4"
   category: "Mito de origem"
   language: "Makurap"
   description: >-
@@ -19,7 +19,7 @@
 
 - youtube_id: surgimento-da-pintura
   title: "Surgimento da pintura corporal"
-  source_url: "videos/surgimento-da-pintura.mp4"
+  source_url: "audio/surgimento-da-pintura.mp4"
   category: "Narrativa"
   language: "Makurap"
   description: >-
@@ -28,7 +28,7 @@
 
 - youtube_id: tucum-e-marico
   title: "História do Tucum e do Marico"
-  source_url: "videos/tucum-e-marico.mp4"
+  source_url: "audio/tucum-e-marico.mp4"
   category: "Narrativa"
   language: "Makurap"
   description: >-
@@ -38,7 +38,7 @@
 
 - youtube_id: castanheira
   title: "História da Castanheira"
-  source_url: "videos/castanheira.mp4"
+  source_url: "audio/castanheira.mp4"
   category: "Narrativa"
   language: "Makurap"
   description: >-
@@ -47,7 +47,7 @@
 
 - youtube_id: payawi
   title: "História da Payawi"
-  source_url: "videos/payawi.mp4"
+  source_url: "audio/payawi.mp4"
   category: "Narrativa"
   language: "Makurap"
   description: >-
@@ -56,7 +56,7 @@
 
 - youtube_id: kaxuleu
   title: "História da Kaxuléu"
-  source_url: "videos/kaxuleu.mp4"
+  source_url: "audio/kaxuleu.mp4"
   category: "Narrativa"
   language: "Makurap"
   description: >-

@@ -1,289 +1,125 @@
 {% extends "base.html.j2" %}
 {% from "decor.html.j2" import motif_divider, page_badge %}
 
-{% block title %}{{ t.vid_title | default('Videos') }}{% endblock %}
+{% block title %}{{ t.vid_title | default('Oral Corpus') }}{% endblock %}
 
 {% block extra_styles %}
-        .vid-header {
+        .oc-header {
             padding: 1.5rem 0 1rem;
             margin-bottom: 1.5rem;
             position: relative;
-            padding-left: 1.5rem;
         }
-        .vid-header::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 1.5rem;
-            width: 4px;
-            height: 48px;
-            background: var(--td-color-primary);
-            border-radius: 2px;
-        }
-        .vid-header h1 {
-            margin: 0 0 0.5rem 0;
-        }
-        .vid-header .subtitle {
+        .oc-header h1 { margin: 0 0 0.5rem 0; }
+        .oc-header .subtitle { color: var(--td-color-text-muted); margin: 0; }
+        .oc-note {
+            background: var(--td-color-bg-infobox);
+            border: 1px solid var(--td-color-border);
+            border-left: 4px solid var(--td-color-primary);
+            border-radius: var(--td-radius);
+            padding: 0.85rem 1.1rem;
+            margin: 0 0 1.75rem;
             color: var(--td-color-text-muted);
-            margin: 0;
+            font-size: 0.9rem;
+            line-height: 1.5;
         }
-        .vid-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 3rem;
+        .oc-filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.75rem; }
+        .oc-filter-btn {
+            border: 1px solid var(--td-color-border);
+            background: var(--td-color-surface);
+            color: var(--td-color-text);
+            border-radius: 999px;
+            padding: 0.35rem 0.9rem;
+            font: inherit; font-size: 0.85rem; cursor: pointer;
+            transition: background 0.15s, color 0.15s, border-color 0.15s;
         }
-        .vid-card {
+        .oc-filter-btn:hover { border-color: var(--td-color-primary); }
+        .oc-filter-btn.active { background: var(--td-color-primary); color: #fff; border-color: var(--td-color-primary); }
+        .oc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+        .oc-card {
             background: var(--td-color-surface);
             border: 1px solid var(--td-color-border);
             border-radius: var(--td-radius);
-            overflow: hidden;
-            transition: transform 0.2s, box-shadow 0.2s;
-            text-decoration: none;
-            color: inherit;
-            display: block;
+            padding: 1.25rem 1.25rem 1.4rem;
+            display: flex; flex-direction: column; gap: 0.6rem;
         }
-        .vid-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        .oc-card-top { display: flex; align-items: center; gap: 0.6rem; }
+        .oc-icon {
+            flex: 0 0 auto; width: 38px; height: 38px; border-radius: 50%;
+            background: var(--td-color-accent-light); color: var(--td-color-primary);
+            display: flex; align-items: center; justify-content: center;
         }
-        .vid-card-thumb {
-            position: relative;
-            aspect-ratio: 16/9;
-            overflow: hidden;
-            background: var(--td-color-bg-light);
+        .oc-icon svg { width: 20px; height: 20px; fill: currentColor; }
+        .oc-category-tag {
+            display: inline-block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em;
+            color: var(--td-color-primary); background: var(--td-color-accent-light);
+            border-radius: 4px; padding: 0.1rem 0.45rem;
         }
-        .vid-card-thumb img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .vid-card { cursor: pointer; font: inherit; text-align: left; padding: 0; width: 100%; }
-        button.vid-card { border: 1px solid var(--td-color-border); }
-        .vid-card-thumb {
-            background:
-                radial-gradient(circle at 30% 30%, hsla(var(--vid-hue,20),55%,60%,0.85), transparent 60%),
-                linear-gradient(135deg, var(--td-color-primary), var(--td-color-accent));
-        }
-        .vid-card-desc {
-            color: var(--td-color-text-muted);
-            font-size: 0.85rem;
-            margin: 0.35rem 0 0;
-            line-height: 1.45;
-            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
-        }
-        .vid-modal { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; }
-        .vid-modal[hidden] { display: none; }
-        .vid-modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.8); }
-        .vid-modal-box { position: relative; background: var(--td-color-surface); border-radius: var(--td-radius); padding: 1rem; max-width: min(900px, 92vw); width: 100%; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
-        .vid-modal-box video { width: 100%; border-radius: 8px; background: #000; max-height: 70vh; }
-        .vid-modal-box h3 { margin: 0.75rem 0 0.25rem; }
-        .vid-modal-box p { margin: 0; color: var(--td-color-text-muted); font-size: 0.9rem; }
-        .vid-modal-close { position: absolute; top: -14px; right: -14px; width: 36px; height: 36px; border-radius: 50%; border: none; background: var(--td-color-primary); color: #fff; font-size: 1.4rem; line-height: 1; cursor: pointer; }
-        .vid-play-icon {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 56px;
-            height: 56px;
-            background: rgba(0,0,0,0.65);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0.85;
-            transition: opacity 0.2s, background 0.2s;
-        }
-        .vid-card:hover .vid-play-icon {
-            opacity: 1;
-            background: rgba(200,31,45,0.85);
-        }
-        .vid-play-icon svg {
-            width: 24px;
-            height: 24px;
-            fill: white;
-            margin-left: 3px;
-        }
-        .vid-card-body {
-            padding: 1rem 1.25rem;
-        }
-        .vid-card-title {
-            font-family: var(--td-font-headings);
-            font-weight: 600;
-            font-size: 1rem;
-            color: var(--td-color-primary);
-            margin: 0 0 0.35rem 0;
-            line-height: 1.35;
-        }
-        .vid-card-meta {
-            font-size: 0.8rem;
-            color: var(--td-color-text-muted);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .vid-category-tag {
-            font-size: 0.72rem;
-            background: var(--td-color-accent-light);
-            color: var(--td-color-accent-muted);
-            padding: 0.15rem 0.55rem;
-            border-radius: 999px;
-            text-transform: capitalize;
-        }
-        .vid-filter-bar {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-            flex-wrap: wrap;
-        }
-        .vid-filter-btn {
-            padding: 0.35rem 1rem;
-            border-radius: 999px;
-            border: 1px solid var(--td-color-border);
-            background: var(--td-color-surface);
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: all 0.15s;
-            color: var(--td-color-text-secondary);
-            font-family: var(--td-font-family);
-        }
-        .vid-filter-btn:hover {
-            border-color: var(--td-color-primary);
-            color: var(--td-color-primary);
-        }
-        .vid-filter-btn.active {
-            background: var(--td-color-primary);
-            border-color: var(--td-color-primary);
-            color: white;
-        }
-
-        @media (max-width: 600px) {
-            .vid-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+        .oc-card-title { margin: 0; font-size: 1.08rem; }
+        .oc-lang { font-size: 0.78rem; color: var(--td-color-text-muted); }
+        .oc-card-desc { color: var(--td-color-text-muted); font-size: 0.9rem; line-height: 1.5; margin: 0; }
+        .oc-card audio { width: 100%; margin-top: 0.35rem; }
+        @media (max-width: 640px) { .oc-grid { grid-template-columns: 1fr; } }
 {% endblock %}
 
 {% block content %}
-    <div class="vid-header">
-        <h1>{{ t.vid_title | default('Videos') }} {{ page_badge(badge_type=theme.page_badge|default("moiety")) }}</h1>
-        <p class="subtitle">{{ t.vid_subtitle | default('') }} &mdash; {{ data | length }} {{ t.vid_count_label | default('videos') }}</p>
+    <div class="oc-header">
+        <h1>{{ t.vid_title | default('Oral Corpus') }} {{ page_badge(badge_type=theme.page_badge|default("weave")) }}</h1>
+        <p class="subtitle">{{ t.vid_subtitle | default('') }} &mdash; {{ data | length }} {{ t.vid_count_label | default('recordings') }}</p>
     </div>
 
-    <div class="vid-filter-bar" id="vid-filters">
-        <button class="vid-filter-btn active" data-cat="all">{{ t.vid_filter_all | default('All') }}</button>
+    {% if t.oc_note %}
+    <p class="oc-note">{{ t.oc_note }}</p>
+    {% endif %}
+
+    <div class="oc-filter-bar" id="oc-filters">
+        <button class="oc-filter-btn active" data-cat="all">{{ t.vid_filter_all | default('All') }}</button>
     </div>
 
-    <div class="vid-grid" id="vid-grid">
-        {% for video in data %}
-        {% if video.source_url %}
-        <button type="button" class="vid-card vid-card--local" data-category="{{ video.category | default('') }}"
-                data-video-src="{{ base_path | default('') }}{{ video.source_url }}"
-                data-video-title="{{ video.title }}"
-                data-video-desc="{{ video.description | default('') }}">
-        {% else %}
-        <a href="https://www.youtube.com/watch?v={{ video.youtube_id }}" target="_blank" rel="noopener" class="vid-card" data-category="{{ video.category | default('') }}">
-        {% endif %}
-            <div class="vid-card-thumb" style="--vid-hue: {{ loop.index0 * 53 % 360 }};">
-                {% if video.thumbnail %}
-                <img src="{{ base_path | default('') }}{{ video.thumbnail }}" alt="{{ video.title }}" loading="lazy">
-                {% endif %}
-                <div class="vid-play-icon">
-                    <svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg>
+    <div class="oc-grid" id="oc-grid">
+        {% for item in data %}
+        <article class="oc-card" data-category="{{ item.category | default('') }}">
+            <div class="oc-card-top">
+                <span class="oc-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm5 9a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2z"/></svg>
+                </span>
+                <div>
+                    {% if item.category %}<span class="oc-category-tag">{{ item.category }}</span>{% endif %}
+                    {% if item.language %}<span class="oc-lang"> · {{ item.language }}</span>{% endif %}
                 </div>
             </div>
-            <div class="vid-card-body">
-                <h3 class="vid-card-title">{{ video.title }}</h3>
-                {% if video.description %}
-                <p class="vid-card-desc">{{ video.description }}</p>
-                {% endif %}
-                <div class="vid-card-meta">
-                    {% if video.category %}
-                    <span class="vid-category-tag">{{ video.category }}</span>
-                    {% endif %}
-                    {% if video.duration %}
-                    <span>{{ video.duration }}</span>
-                    {% endif %}
-                </div>
-            </div>
-        {% if video.source_url %}</button>{% else %}</a>{% endif %}
+            <h3 class="oc-card-title">{{ item.title }}</h3>
+            {% if item.description %}<p class="oc-card-desc">{{ item.description }}</p>{% endif %}
+            {% if item.source_url %}
+            <audio controls preload="none" src="{{ base_path | default('') }}{{ item.source_url }}"></audio>
+            {% endif %}
+        </article>
         {% endfor %}
-    </div>
-
-    <div class="vid-modal" id="vid-modal" hidden>
-        <div class="vid-modal-backdrop" data-close></div>
-        <div class="vid-modal-box" role="dialog" aria-modal="true" aria-labelledby="vid-modal-title">
-            <button type="button" class="vid-modal-close" data-close aria-label="Fechar">&times;</button>
-            <video id="vid-modal-player" controls preload="metadata" playsinline></video>
-            <h3 id="vid-modal-title"></h3>
-            <p id="vid-modal-desc"></p>
-        </div>
     </div>
 {% endblock %}
 
 {% block scripts %}
     <script>
     (function() {
-        var cards = document.querySelectorAll('.vid-card');
-        var filterBar = document.getElementById('vid-filters');
-
-        // Build category filters
+        var cards = document.querySelectorAll('.oc-card');
+        var bar = document.getElementById('oc-filters');
         var cats = {};
-        cards.forEach(function(c) {
-            var cat = c.getAttribute('data-category');
-            if (cat) cats[cat] = true;
-        });
+        cards.forEach(function(c) { var cat = c.getAttribute('data-category'); if (cat) cats[cat] = true; });
         Object.keys(cats).sort().forEach(function(cat) {
             var btn = document.createElement('button');
-            btn.className = 'vid-filter-btn';
+            btn.className = 'oc-filter-btn';
             btn.setAttribute('data-cat', cat);
-            btn.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
-            filterBar.appendChild(btn);
+            btn.textContent = cat;
+            bar.appendChild(btn);
         });
-
-        filterBar.addEventListener('click', function(e) {
-            var btn = e.target.closest('.vid-filter-btn');
+        bar.addEventListener('click', function(e) {
+            var btn = e.target.closest('.oc-filter-btn');
             if (!btn) return;
-            filterBar.querySelectorAll('.vid-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+            bar.querySelectorAll('.oc-filter-btn').forEach(function(b) { b.classList.remove('active'); });
             btn.classList.add('active');
             var cat = btn.getAttribute('data-cat');
             cards.forEach(function(c) {
                 c.style.display = (cat === 'all' || c.getAttribute('data-category') === cat) ? '' : 'none';
             });
-        });
-
-        // In-page player for self-hosted videos
-        var modal = document.getElementById('vid-modal');
-        var player = document.getElementById('vid-modal-player');
-        var titleEl = document.getElementById('vid-modal-title');
-        var descEl = document.getElementById('vid-modal-desc');
-        function openVideo(src, title, desc) {
-            player.src = src;
-            titleEl.textContent = title || '';
-            descEl.textContent = desc || '';
-            modal.hidden = false;
-            document.body.style.overflow = 'hidden';
-            player.play().catch(function() {});
-        }
-        function closeVideo() {
-            player.pause();
-            player.removeAttribute('src');
-            player.load();
-            modal.hidden = true;
-            document.body.style.overflow = '';
-        }
-        document.querySelectorAll('.vid-card--local').forEach(function(c) {
-            c.addEventListener('click', function() {
-                openVideo(c.getAttribute('data-video-src'), c.getAttribute('data-video-title'), c.getAttribute('data-video-desc'));
-            });
-        });
-        modal.addEventListener('click', function(e) {
-            if (e.target.hasAttribute('data-close')) closeVideo();
-        });
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && !modal.hidden) closeVideo();
         });
     })();
     </script>

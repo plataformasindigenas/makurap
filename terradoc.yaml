@@ -30,7 +30,7 @@ module_labels:
   fauna: "Fauna"
   ethnobotany: "Etnobotânica"
   bibliography: "Bibliografia"
-  videos: "Vídeos"
+  videos: "Corpus Oral"
 
 theme:
   preset: "terra"
@@ -42,14 +42,16 @@ theme:
   # territory photos are community-uploaded Makurap images from Wikimedia
   # Commons (CC BY-SA 4.0, by Jeffeson Tupari Makurap) and CC-licensed regional
   # photos; fauna/flora cards keep a reused animal/plant photo. See CREDITS.md.
-  hero_image: "images/makurap_chicha_01.jpg"     # chicha at the Rio Guaporé sunset
+  # Hero lead is the ISA / Povos Indígenas no Brasil community photo (used with
+  # authorization). See CREDITS.md.
+  hero_image: "images/makurap_isa_01.jpg"        # Makurap community (ISA / PIB)
   hero_images:
     - "images/makurap_people_01.jpg"   # dictionary — Makurap men preparing fish
     - "images/makurap_house_01.jpg"    # encyclopedia — round maloca interior
     - "images/makurap_fauna_01.jpg"    # fauna — onça
     - "images/makurap_urucum_01.jpg"   # ethnobotany — urucum (annatto) seeds
     - "images/makurap_guapore_01.jpg"  # bibliography — Rio Guaporé territory
-    - "images/makurap_people_02.jpg"   # videos — daily life by the river
+    - "images/makurap_chicha_01.jpg"   # corpus oral — chicha at the Guaporé sunset
   hero_height: "large"
   hero_background: "weave"
   hero_motif: "weave"
