@@ -21,3 +21,10 @@ uv.lock
 
 # Build output (regenerated; source assets live in media/ and raw/)
 docs/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
