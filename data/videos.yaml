@@ -1,0 +1,64 @@
+# Makurap oral-history videos (self-hosted MP4, played in-page).
+# These six recordings are community narratives. With the exception of the
+# creation narrative ("Surgimento do Mundo"), the named stories below are NOT
+# documented in the published literature and are treated here as oral sources
+# belonging to the Makurap community — DRAFT, pending consent and review.
+#
+# The `youtube_id` field is reused by terradoc as the record key; here it holds
+# the local slug, and `source_url` points to the self-hosted file.
+
+- youtube_id: surgimento-do-mundo
+  title: "Surgimento do Mundo para o povo Makurap"
+  source_url: "videos/surgimento-do-mundo.mp4"
+  category: "Mito de origem"
+  language: "Makurap"
+  description: >-
+    Narrativa da criação. Na tradição Makurap, dois irmãos primordiais surgem
+    da pedra — Nambu, o criador silencioso, e Beüd — e os povos emergem da
+    terra, cada um com seu animal-clã. (Registro comunitário.)
+
+- youtube_id: surgimento-da-pintura
+  title: "Surgimento da pintura corporal"
+  source_url: "videos/surgimento-da-pintura.mp4"
+  category: "Narrativa"
+  language: "Makurap"
+  description: >-
+    Relato sobre a origem da pintura corporal Makurap. (Registro comunitário,
+    não documentado na literatura publicada.)
+
+- youtube_id: tucum-e-marico
+  title: "História do Tucum e do Marico"
+  source_url: "videos/tucum-e-marico.mp4"
+  category: "Narrativa"
+  language: "Makurap"
+  description: >-
+    O marico — bolsa de carregar tecida em fibra de tucum, trabalho das
+    mulheres — é o artefato que define o "complexo cultural do marico" da região
+    do Guaporé. (Registro comunitário.)
+
+- youtube_id: castanheira
+  title: "História da Castanheira"
+  source_url: "videos/castanheira.mp4"
+  category: "Narrativa"
+  language: "Makurap"
+  description: >-
+    Narrativa sobre a castanheira (castanha-do-Brasil, *Bertholletia excelsa*),
+    de grande importância econômica para o povo Makurap. (Registro comunitário.)
+
+- youtube_id: payawi
+  title: "História da Payawi"
+  source_url: "videos/payawi.mp4"
+  category: "Narrativa"
+  language: "Makurap"
+  description: >-
+    Narrativa tradicional Makurap. (Registro comunitário, não documentado na
+    literatura publicada.)
+
+- youtube_id: kaxuleu
+  title: "História da Kaxuléu"
+  source_url: "videos/kaxuleu.mp4"
+  category: "Narrativa"
+  language: "Makurap"
+  description: >-
+    Narrativa tradicional Makurap. (Registro comunitário, não documentado na
+    literatura publicada.)

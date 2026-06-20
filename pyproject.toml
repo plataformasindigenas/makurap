@@ -1,0 +1,14 @@
+[project]
+name = "makurap"
+version = "0.1.0"
+description = "Makurap — Ki Mõyen: digital platform for the Makurap language and culture (Tuparí/Tupí, Rondônia)"
+requires-python = ">=3.11"
+dependencies = [
+    "terradoc>=0.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "openpyxl>=3.1",
+]

@@ -1,0 +1,1255 @@
+{
+ "lista": [
+  {
+   "pt": "a mulher está fazendo esteira",
+   "mk": "ira nãwixet arãpiyã"
+  },
+  {
+   "pt": "abanar/abano",
+   "mk": "pupugaet"
+  },
+  {
+   "pt": "açaí",
+   "mk": "wirixa"
+  },
+  {
+   "pt": "acessório em formato de flor para colocar no cabelo",
+   "mk": "tintinga"
+  },
+  {
+   "pt": "acessório para segurar o cabelo",
+   "mk": "atintekae"
+  },
+  {
+   "pt": "agora",
+   "mk": "yingekiri"
+  },
+  {
+   "pt": "agora está pronto",
+   "mk": "yemã kemõ"
+  },
+  {
+   "pt": "agora ficou bonito",
+   "mk": "yemã poaten"
+  },
+  {
+   "pt": "água/rio",
+   "mk": "u"
+  },
+  {
+   "pt": "aí mesmo",
+   "mk": "xerõpe"
+  },
+  {
+   "pt": "ajeitar",
+   "mk": "poanga"
+  },
+  {
+   "pt": "algodão",
+   "mk": "ororo"
+  },
+  {
+   "pt": "amanhã",
+   "mk": "wakamõ"
+  },
+  {
+   "pt": "amarelo",
+   "mk": "paray"
+  },
+  {
+   "pt": "amendoim",
+   "mk": "arawu"
+  },
+  {
+   "pt": "andar",
+   "mk": "kupna"
+  },
+  {
+   "pt": "anel de coco",
+   "mk": "monerao"
+  },
+  {
+   "pt": "anta",
+   "mk": "uax"
+  },
+  {
+   "pt": "aranha",
+   "mk": "mbokowot"
+  },
+  {
+   "pt": "arco",
+   "mk": "komboi"
+  },
+  {
+   "pt": "arco-íris",
+   "mk": "mboxato"
+  },
+  {
+   "pt": "aricuri",
+   "mk": "ora"
+  },
+  {
+   "pt": "aricuri",
+   "mk": "ora"
+  },
+  {
+   "pt": "assar",
+   "mk": "apetira"
+  },
+  {
+   "pt": "assim mesmo",
+   "mk": "xotẽwixet"
+  },
+  {
+   "pt": "balaio",
+   "mk": "apkenren"
+  },
+  {
+   "pt": "banco do pajé",
+   "mk": "mamõap yãpet"
+  },
+  {
+   "pt": "barbante",
+   "mk": "wadmoen"
+  },
+  {
+   "pt": "batata",
+   "mk": "wawo"
+  },
+  {
+   "pt": "batom",
+   "mk": "ndua"
+  },
+  {
+   "pt": "beber (embriagar-se)",
+   "mk": "xewuka"
+  },
+  {
+   "pt": "beija-flor",
+   "mk": "liin"
+  },
+  {
+   "pt": "bico",
+   "mk": "yãkape"
+  },
+  {
+   "pt": "bicho-preguiça",
+   "mk": "aonda"
+  },
+  {
+   "pt": "boca",
+   "mk": "worapi"
+  },
+  {
+   "pt": "bochecha",
+   "mk": "xanjape"
+  },
+  {
+   "pt": "bom dia",
+   "mk": "en bo na em"
+  },
+  {
+   "pt": "bonitinho",
+   "mk": "poatemin"
+  },
+  {
+   "pt": "bonito",
+   "mk": "ateii"
+  },
+  {
+   "pt": "bonito",
+   "mk": "atu"
+  },
+  {
+   "pt": "borboleta",
+   "mk": "njalule"
+  },
+  {
+   "pt": "bravo",
+   "mk": "waga"
+  },
+  {
+   "pt": "breu",
+   "mk": "mãtote"
+  },
+  {
+   "pt": "breu",
+   "mk": "akapti"
+  },
+  {
+   "pt": "buraco",
+   "mk": "kupnye"
+  },
+  {
+   "pt": "buriti",
+   "mk": "torom"
+  },
+  {
+   "pt": "cabeça dele",
+   "mk": "njakaret"
+  },
+  {
+   "pt": "cabelo",
+   "mk": "atum"
+  },
+  {
+   "pt": "cabo utilizado para trançar tucum/buriti",
+   "mk": "tekaret"
+  },
+  {
+   "pt": "caça",
+   "mk": "xewarop"
+  },
+  {
+   "pt": "cacau",
+   "mk": "ndunda"
+  },
+  {
+   "pt": "cachaça",
+   "mk": "erexewut"
+  },
+  {
+   "pt": "caco (de torrar milho)",
+   "mk": "pem"
+  },
+  {
+   "pt": "caminho da saúva (ponto de costura)",
+   "mk": "mingpet"
+  },
+  {
+   "pt": "caminho",
+   "mk": "pe"
+  },
+  {
+   "pt": "cana-de-açúcar",
+   "mk": "mbeku"
+  },
+  {
+   "pt": "cará",
+   "mk": "xewa"
+  },
+  {
+   "pt": "caracol",
+   "mk": "xarea"
+  },
+  {
+   "pt": "caranguejo",
+   "mk": "amãyã"
+  },
+  {
+   "pt": "carapanã",
+   "mk": "tĩyale"
+  },
+  {
+   "pt": "carrapato",
+   "mk": "nẽro"
+  },
+  {
+   "pt": "carrego criança na tipoia",
+   "mk": "xaip apatpara epuytmbe"
+  },
+  {
+   "pt": "casa",
+   "mk": "ek"
+  },
+  {
+   "pt": "casca de árvore",
+   "mk": "kup ape"
+  },
+  {
+   "pt": "casca de uma espécie árvore",
+   "mk": "karipé (português)"
+  },
+  {
+   "pt": "castanha",
+   "mk": "arao"
+  },
+  {
+   "pt": "cavalo/burro",
+   "mk": "mboro"
+  },
+  {
+   "pt": "chapéu",
+   "mk": "axaupe"
+  },
+  {
+   "pt": "chegar",
+   "mk": "awagora"
+  },
+  {
+   "pt": "chicha",
+   "mk": "mbayi"
+  },
+  {
+   "pt": "chicha de cará",
+   "mk": "xewawu"
+  },
+  {
+   "pt": "chicha de mandioca",
+   "mk": "manywu"
+  },
+  {
+   "pt": "chifre",
+   "mk": "apikup"
+  },
+  {
+   "pt": "chorar",
+   "mk": "yinkot"
+  },
+  {
+   "pt": "chuva",
+   "mk": "uekara"
+  },
+  {
+   "pt": "cofo",
+   "mk": "ira"
+  },
+  {
+   "pt": "colher",
+   "mk": "njaliwo"
+  },
+  {
+   "pt": "colocar.cabo",
+   "mk": "kunga"
+  },
+  {
+   "pt": "com",
+   "mk": "erete"
+  },
+  {
+   "pt": "comida feita com castanha verde amassada e misturada com carne",
+   "mk": "kaykõm"
+  },
+  {
+   "pt": "comprido",
+   "mk": "kãrang"
+  },
+  {
+   "pt": "corda de amarrar na testa",
+   "mk": "yapat parãna"
+  },
+  {
+   "pt": "corda do marico",
+   "mk": "exi parãna"
+  },
+  {
+   "pt": "cortar",
+   "mk": "ndenga"
+  },
+  {
+   "pt": "coruja",
+   "mk": "waaga/popowa"
+  },
+  {
+   "pt": "costela de peixe (ponto de costura)",
+   "mk": "potkap kereyet"
+  },
+  {
+   "pt": "criançada",
+   "mk": "xaupyãy"
+  },
+  {
+   "pt": "dente",
+   "mk": "yãy"
+  },
+  {
+   "pt": "derramar",
+   "mk": "paxap"
+  },
+  {
+   "pt": "derrubar",
+   "mk": "mopakara"
+  },
+  {
+   "pt": "descascar (tucumã)",
+   "mk": "yopeingepa"
+  },
+  {
+   "pt": "descer/cair",
+   "mk": "ekara"
+  },
+  {
+   "pt": "desenhar",
+   "mk": "ngixat"
+  },
+  {
+   "pt": "ele está fazendo taquara",
+   "mk": "ekup nawixet"
+  },
+  {
+   "pt": "ele fez bem",
+   "mk": "poaten wixetna"
+  },
+  {
+   "pt": "ele passou a cera na corda",
+   "mk": "kuya mãtote mõ"
+  },
+  {
+   "pt": "enfeitar",
+   "mk": "ngixat"
+  },
+  {
+   "pt": "enrolar",
+   "mk": "apãrã"
+  },
+  {
+   "pt": "entrar",
+   "mk": "omuã"
+  },
+  {
+   "pt": "escuro/noite",
+   "mk": "gitak"
+  },
+  {
+   "pt": "escuro/nublado",
+   "mk": "puk"
+  },
+  {
+   "pt": "esfregar/girar (para furar o tucumã)",
+   "mk": "kuyato"
+  },
+  {
+   "pt": "espada de pupunha",
+   "mk": "tutyã kande"
+  },
+  {
+   "pt": "espelho",
+   "mk": "toap"
+  },
+  {
+   "pt": "esse/este",
+   "mk": "xop"
+  },
+  {
+   "pt": "está trovejando",
+   "mk": "mboterimã"
+  },
+  {
+   "pt": "está.bom/bem",
+   "mk": "poaten"
+  },
+  {
+   "pt": "está bom/obrigado",
+   "mk": "oaletkoa"
+  },
+  {
+   "pt": "esteira",
+   "mk": "iãpe"
+  },
+  {
+   "pt": "esteira",
+   "mk": "ira"
+  },
+  {
+   "pt": "eu",
+   "mk": "on"
+  },
+  {
+   "pt": "eu estou bem",
+   "mk": "on koa poaten"
+  },
+  {
+   "pt": "eu estou chorando",
+   "mk": "on yinkori"
+  },
+  {
+   "pt": "eu saio",
+   "mk": "otera"
+  },
+  {
+   "pt": "fala",
+   "mk": "moye"
+  },
+  {
+   "pt": "farinha",
+   "mk": "xau"
+  },
+  {
+   "pt": "fazendo",
+   "mk": "nãwixet"
+  },
+  {
+   "pt": "filha de homem",
+   "mk": "kito taget"
+  },
+  {
+   "pt": "filha de mulher",
+   "mk": "arãpiyã mepiret"
+  },
+  {
+   "pt": "flecha",
+   "mk": "ekup"
+  },
+  {
+   "pt": "fogo",
+   "mk": "oxat"
+  },
+  {
+   "pt": "furar (tucumã)",
+   "mk": "wotga"
+  },
+  {
+   "pt": "gafanhoto",
+   "mk": "urupa"
+  },
+  {
+   "pt": "gavião",
+   "mk": "pãriõ"
+  },
+  {
+   "pt": "gavião-real",
+   "mk": "pãriõ xato"
+  },
+  {
+   "pt": "gongo",
+   "mk": "ngot"
+  },
+  {
+   "pt": "grande",
+   "mk": "xato"
+  },
+  {
+   "pt": "hoje",
+   "mk": "ngekut"
+  },
+  {
+   "pt": "homem",
+   "mk": "kito"
+  },
+  {
+   "pt": "homem não indígena",
+   "mk": "ere"
+  },
+  {
+   "pt": "instrumento de pesca",
+   "mk": "tin"
+  },
+  {
+   "pt": "jacaré",
+   "mk": "wato"
+  },
+  {
+   "pt": "jararaca/cobra",
+   "mk": "xat"
+  },
+  {
+   "pt": "lama/barro comum",
+   "mk": "kuyka"
+  },
+  {
+   "pt": "lambari",
+   "mk": "potkawi"
+  },
+  {
+   "pt": "lavar",
+   "mk": "yoa"
+  },
+  {
+   "pt": "levantar pescoço para cantar",
+   "mk": "ewukã kãrã"
+  },
+  {
+   "pt": "língua",
+   "mk": "yuxem"
+  },
+  {
+   "pt": "lixar",
+   "mk": "kuya"
+  },
+  {
+   "pt": "lixar/alisar",
+   "mk": "niraiga"
+  },
+  {
+   "pt": "lua",
+   "mk": "oli"
+  },
+  {
+   "pt": "macaco-preto",
+   "mk": "arembo"
+  },
+  {
+   "pt": "macaco-velho",
+   "mk": "karoroy"
+  },
+  {
+   "pt": "machado",
+   "mk": "wi"
+  },
+  {
+   "pt": "machucar chicha (socar macaxeira para fazer chicha)",
+   "mk": "nderewa"
+  },
+  {
+   "pt": "mamão",
+   "mk": "ngotkup"
+  },
+  {
+   "pt": "manchado",
+   "mk": "erẽy"
+  },
+  {
+   "pt": "mão",
+   "mk": "mbo"
+  },
+  {
+   "pt": "mão de pilar barro",
+   "mk": "xopopoyet"
+  },
+  {
+   "pt": "mato",
+   "mk": "ngete"
+  },
+  {
+   "pt": "medroso",
+   "mk": "mbiwa"
+  },
+  {
+   "pt": "mel",
+   "mk": "tawu"
+  },
+  {
+   "pt": "menino",
+   "mk": "perowa"
+  },
+  {
+   "pt": "menino",
+   "mk": "imim"
+  },
+  {
+   "pt": "mesmo (é mesmo?)",
+   "mk": "teytet"
+  },
+  {
+   "pt": "meu pai",
+   "mk": "oxoet"
+  },
+  {
+   "pt": "milho",
+   "mk": "atiti"
+  },
+  {
+   "pt": "milho verde",
+   "mk": "nyeut"
+  },
+  {
+   "pt": "mingau",
+   "mk": "kak"
+  },
+  {
+   "pt": "minha.namorada",
+   "mk": "oxãrãen"
+  },
+  {
+   "pt": "minhoca",
+   "mk": "ating"
+  },
+  {
+   "pt": "minhoca grande (mulher do arco-íris)",
+   "mk": "atinxato"
+  },
+  {
+   "pt": "mosca",
+   "mk": "merowã"
+  },
+  {
+   "pt": "mulher",
+   "mk": "arãpiyã"
+  },
+  {
+   "pt": "mulher não indígena",
+   "mk": "ereypet"
+  },
+  {
+   "pt": "mundo",
+   "mk": "kikuyet"
+  },
+  {
+   "pt": "mutum",
+   "mk": "mintõ"
+  },
+  {
+   "pt": "najá",
+   "mk": "korinde"
+  },
+  {
+   "pt": "namorada",
+   "mk": "xãram"
+  },
+  {
+   "pt": "não está bem/bom",
+   "mk": "poarõ"
+  },
+  {
+   "pt": "não tem",
+   "mk": "kepit"
+  },
+  {
+   "pt": "nome",
+   "mk": "xet"
+  },
+  {
+   "pt": "nome de deus",
+   "mk": "awato beyu"
+  },
+  {
+   "pt": "o que",
+   "mk": "arikop"
+  },
+  {
+   "pt": "obrigado",
+   "mk": "aowa keten"
+  },
+  {
+   "pt": "onça",
+   "mk": "amenko"
+  },
+  {
+   "pt": "onça feroz",
+   "mk": "takri"
+  },
+  {
+   "pt": "ontem",
+   "mk": "pote"
+  },
+  {
+   "pt": "orelha",
+   "mk": "apixep"
+  },
+  {
+   "pt": "outro",
+   "mk": "non"
+  },
+  {
+   "pt": "paca",
+   "mk": "atax"
+  },
+  {
+   "pt": "pai",
+   "mk": "awa"
+  },
+  {
+   "pt": "panema (caçador/pescador azarado)",
+   "mk": "ndogom"
+  },
+  {
+   "pt": "pato",
+   "mk": "payo"
+  },
+  {
+   "pt": "patroa/mulher do cacique",
+   "mk": "mboalipet"
+  },
+  {
+   "pt": "pedir/querer",
+   "mk": "peka"
+  },
+  {
+   "pt": "peixe",
+   "mk": "potkap"
+  },
+  {
+   "pt": "peixe pintado",
+   "mk": "andole"
+  },
+  {
+   "pt": "pena/cabeludo",
+   "mk": "eambana"
+  },
+  {
+   "pt": "pescar",
+   "mk": "motiwã"
+  },
+  {
+   "pt": "pescoço",
+   "mk": "wotkup"
+  },
+  {
+   "pt": "pessoas",
+   "mk": "ekitenya"
+  },
+  {
+   "pt": "pico-de-jaca",
+   "mk": "pãyãyõ"
+  },
+  {
+   "pt": "pintar",
+   "mk": "konga"
+  },
+  {
+   "pt": "pintar corpo",
+   "mk": "ngixat"
+  },
+  {
+   "pt": "pintar.dentro",
+   "mk": "pitkonga"
+  },
+  {
+   "pt": "piranha",
+   "mk": "upyay"
+  },
+  {
+   "pt": "pium",
+   "mk": "mbioxayi"
+  },
+  {
+   "pt": "planta amansa mulher",
+   "mk": "arãpiyãkepxep"
+  },
+  {
+   "pt": "planta para azedar chicha",
+   "mk": "yakawao"
+  },
+  {
+   "pt": "planta para pingar no olho",
+   "mk": "xixakexap"
+  },
+  {
+   "pt": "planta para queimadura, corte",
+   "mk": "ẽrey"
+  },
+  {
+   "pt": "planta para tirar panema",
+   "mk": "õrõmenxoay"
+  },
+  {
+   "pt": "ponte de deus",
+   "mk": "awato bukyet"
+  },
+  {
+   "pt": "poraquê",
+   "mk": "ndoko"
+  },
+  {
+   "pt": "pote de pupunha usado para fazer fio de algodão",
+   "mk": "iwukup"
+  },
+  {
+   "pt": "pote maior em que se coloca chicha; também pode ser usado como caixão",
+   "mk": "atopa"
+  },
+  {
+   "pt": "pote menor usado para colocar água ou chicha (descrição lembra uma cuia)",
+   "mk": "ũen"
+  },
+  {
+   "pt": "prato/pote menor em que o pajé torra rapé",
+   "mk": "kandaii"
+  },
+  {
+   "pt": "preguiçoso",
+   "mk": "awagom"
+  },
+  {
+   "pt": "pulseira",
+   "mk": "mbonẽarao\nmborikõ"
+  },
+  {
+   "pt": "pulseira de ouriço de castanha",
+   "mk": "nearao"
+  },
+  {
+   "pt": "quebrar",
+   "mk": "pagepa"
+  },
+  {
+   "pt": "quem",
+   "mk": "arikop kitoare"
+  },
+  {
+   "pt": "rapazes",
+   "mk": "nakowutnya"
+  },
+  {
+   "pt": "rápido",
+   "mk": "waraga"
+  },
+  {
+   "pt": "rasgar (buriti)",
+   "mk": "ingeynga"
+  },
+  {
+   "pt": "rede",
+   "mk": "enrin"
+  },
+  {
+   "pt": "remar",
+   "mk": "eo"
+  },
+  {
+   "pt": "remédio",
+   "mk": "wairat"
+  },
+  {
+   "pt": "remédio",
+   "mk": "xaoté wairat"
+  },
+  {
+   "pt": "remédio de panema",
+   "mk": "arembunyenxoay"
+  },
+  {
+   "pt": "remédio para cólica",
+   "mk": "kimbitik"
+  },
+  {
+   "pt": "remédio para criança falar",
+   "mk": "xaip wairat"
+  },
+  {
+   "pt": "remédio para engravidar",
+   "mk": "arãpiyãkepxep"
+  },
+  {
+   "pt": "remédio para ferimento",
+   "mk": "xai wairat"
+  },
+  {
+   "pt": "resina de jatobá",
+   "mk": "watepixoep"
+  },
+  {
+   "pt": "roça",
+   "mk": "nge"
+  },
+  {
+   "pt": "roça do irmão",
+   "mk": "nge ononinge mbixexo"
+  },
+  {
+   "pt": "roupa",
+   "mk": "axexu"
+  },
+  {
+   "pt": "roupa.branca",
+   "mk": "axexi ngab"
+  },
+  {
+   "pt": "samaúma",
+   "mk": "waranã"
+  },
+  {
+   "pt": "sangue",
+   "mk": "xeu"
+  },
+  {
+   "pt": "saúva",
+   "mk": "ming"
+  },
+  {
+   "pt": "semente",
+   "mk": "xambi"
+  },
+  {
+   "pt": "serra",
+   "mk": "ndoa"
+  },
+  {
+   "pt": "sol/dia",
+   "mk": "ngeat"
+  },
+  {
+   "pt": "tabatinga, barro arroxeado",
+   "mk": "xop"
+  },
+  {
+   "pt": "talco",
+   "mk": "ngowok"
+  },
+  {
+   "pt": "taquara",
+   "mk": "ekup"
+  },
+  {
+   "pt": "tatu",
+   "mk": "uro"
+  },
+  {
+   "pt": "tatu-canastra",
+   "mk": "wiriyo"
+  },
+  {
+   "pt": "tipo de remédio",
+   "mk": "xat wairat"
+  },
+  {
+   "pt": "tipo de remédio",
+   "mk": "xau wairat"
+  },
+  {
+   "pt": "tipoia",
+   "mk": "epuy"
+  },
+  {
+   "pt": "torrar",
+   "mk": "tura"
+  },
+  {
+   "pt": "trançar",
+   "mk": "tiinka"
+  },
+  {
+   "pt": "tucano",
+   "mk": "yõkã"
+  },
+  {
+   "pt": "tucumã",
+   "mk": "orokone"
+  },
+  {
+   "pt": "tucunaré",
+   "mk": "mbalera"
+  },
+  {
+   "pt": "um",
+   "mk": "erekut"
+  },
+  {
+   "pt": "urubu",
+   "mk": "ueko"
+  },
+  {
+   "pt": "urucum",
+   "mk": "iko"
+  },
+  {
+   "pt": "vagalume",
+   "mk": "mborexap"
+  },
+  {
+   "pt": "vamos",
+   "mk": "yẽmo"
+  },
+  {
+   "pt": "vamos jogar bola",
+   "mk": "yẽmo mbambap wuwa"
+  },
+  {
+   "pt": "veado",
+   "mk": "utu"
+  },
+  {
+   "pt": "vento",
+   "mk": "ngeyto"
+  },
+  {
+   "pt": "verde (não maduro)",
+   "mk": "aut"
+  },
+  {
+   "pt": "vermelho",
+   "mk": "wurup"
+  },
+  {
+   "pt": "você",
+   "mk": "en"
+  },
+  {
+   "pt": "vovô",
+   "mk": "awato"
+  },
+  {
+   "pt": "vovó",
+   "mk": "titi"
+  }
+ ],
+ "alphabet": [
+  {
+   "letra": "A",
+   "som": "casa",
+   "mk": "arao",
+   "pt": "castanha-do-Pará"
+  },
+  {
+   "letra": "Ã",
+   "som": "mão",
+   "mk": "merowã",
+   "pt": "mosca"
+  },
+  {
+   "letra": "E",
+   "som": "pé / escada",
+   "mk": "ere",
+   "pt": "não-indígena"
+  },
+  {
+   "letra": "Ẽ",
+   "som": "pente",
+   "mk": "erẽy",
+   "pt": "pintado/manchado"
+  },
+  {
+   "letra": "G",
+   "som": "gato",
+   "mk": "awagom",
+   "pt": "preguiçoso"
+  },
+  {
+   "letra": "I",
+   "som": "buriti",
+   "mk": "iko",
+   "pt": "urucum"
+  },
+  {
+   "letra": "Ĩ",
+   "som": "tinta",
+   "mk": "tĩyale",
+   "pt": "carapanã"
+  },
+  {
+   "letra": "K",
+   "som": "casca",
+   "mk": "kak",
+   "pt": "mingau"
+  },
+  {
+   "letra": "L",
+   "som": "leite",
+   "mk": "njaliwo",
+   "pt": "colher"
+  },
+  {
+   "letra": "M",
+   "som": "mato",
+   "mk": "mitõ",
+   "pt": "mutum"
+  },
+  {
+   "letra": "MB",
+   "som": null,
+   "mk": "mbeku",
+   "pt": "cana-de-açúcar "
+  },
+  {
+   "letra": "N",
+   "som": "noite",
+   "mk": "nãkowut",
+   "pt": "rapaz"
+  },
+  {
+   "letra": "ND",
+   "som": "andar",
+   "mk": "ndutnda",
+   "pt": "cacau"
+  },
+  {
+   "letra": "NG",
+   "som": "manga",
+   "mk": "ngeyto",
+   "pt": "vento"
+  },
+  {
+   "letra": "NJ",
+   "som": null,
+   "mk": "njalule",
+   "pt": "borboleta"
+  },
+  {
+   "letra": "O",
+   "som": "olho",
+   "mk": "mbokowot",
+   "pt": "aranha"
+  },
+  {
+   "letra": "Õ",
+   "som": "ontem",
+   "mk": "paliõn",
+   "pt": "gavião"
+  },
+  {
+   "letra": "P",
+   "som": "panela",
+   "mk": "potkap",
+   "pt": "peixe"
+  },
+  {
+   "letra": "R",
+   "som": "areia",
+   "mk": "worapi",
+   "pt": "boca"
+  },
+  {
+   "letra": "T",
+   "som": "tatu",
+   "mk": "titi",
+   "pt": "vovó"
+  },
+  {
+   "letra": "U",
+   "som": null,
+   "mk": "uax",
+   "pt": "anta"
+  },
+  {
+   "letra": "Ũ",
+   "som": null,
+   "mk": "atum",
+   "pt": "cabelo"
+  },
+  {
+   "letra": "W",
+   "som": null,
+   "mk": "wotkup",
+   "pt": "pescoço"
+  },
+  {
+   "letra": "X",
+   "som": "tchau",
+   "mk": "xambi",
+   "pt": "semente"
+  },
+  {
+   "letra": "Y",
+   "som": "saia",
+   "mk": "yõkan",
+   "pt": "tucano"
+  }
+ ],
+ "phrases": [
+  {
+   "pt": "a mulher faz esteira",
+   "mk": "ira nãwixet arãpiyã",
+   "note": null
+  },
+  {
+   "pt": "agora ficou bonito",
+   "mk": "yemã poaten",
+   "note": null
+  },
+  {
+   "pt": "eu estou bem",
+   "mk": "on koa poaten",
+   "note": null
+  },
+  {
+   "pt": "ele está fazendo taquara",
+   "mk": "ekup nãwixet",
+   "note": null
+  },
+  {
+   "pt": "vamos jogar bola",
+   "mk": "yẽmo mbambap wuwa",
+   "note": null
+  },
+  {
+   "pt": "carrego criança na tipoia",
+   "mk": "xaip apatpara epuytmbe",
+   "note": "Não há diferença antre ko e kowyje"
+  },
+  {
+   "pt": "estou chorando",
+   "mk": "on yinkori",
+   "note": null
+  },
+  {
+   "pt": "a mulher está quebrando tucumã",
+   "mk": "arãpiyã orokone pagepa",
+   "note": null
+  },
+  {
+   "pt": "agora está pronto",
+   "mk": "yemã kemõ",
+   "note": null
+  }
+ ]
+}

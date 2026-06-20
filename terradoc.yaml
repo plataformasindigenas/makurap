@@ -1,0 +1,76 @@
+project_name: "Makurap"
+project_subtitle: "Ki Mõyen"
+site_title: "Makurap"
+site_tagline: "Ki Mõyen — nossa língua, nossa memória"
+culture_name: "Makurap"
+meta_prefix: "makurap"
+
+locales: ["pt", "en"]
+locale_labels:
+  pt: "Português"
+  en: "English"
+default_locale: "pt"
+
+featured_article_id: "makurap"
+bib_file: "references.bib"
+
+modules:
+  dictionary: { enabled: true }
+  encyclopedia: { enabled: true }
+  fauna: { enabled: true }
+  ethnobotany: { enabled: true }
+  bibliography: { enabled: true }
+  recordings: { enabled: false }
+  corpus: { enabled: false }
+  videos: { enabled: true }
+
+module_labels:
+  dictionary: "Dicionário"
+  encyclopedia: "Enciclopédia"
+  fauna: "Fauna"
+  ethnobotany: "Etnobotânica"
+  bibliography: "Bibliografia"
+  videos: "Vídeos"
+
+theme:
+  preset: "terra"
+  logo: "images/logo.svg"
+  favicon: "images/favicon.svg"
+  hero_height: "large"
+  hero_background: "weave"
+  hero_motif: "weave"
+  hero_divider: "weave"
+  page_badge: "weave"
+  grain_pattern: "weave"
+  hero_stats:
+    - dictionary
+    - encyclopedia
+    - fauna
+    - videos
+  # Palette inspired by Makurap material culture: urucum (annatto red),
+  # tucum-fibre tan of the marico, genipapo near-black, and Amazon green.
+  colors:
+    primary: "#B5341F"
+    accent: "#D98A2B"
+    accent_muted: "#9A2C1A"
+    accent_light: "#FBE7DC"
+    accent_ring: "rgba(181, 52, 31, 0.22)"
+    dark: "#241A14"
+    bg: "#F7F0E4"
+    bg_light: "#F1E7D5"
+    bg_infobox: "#FAF4E9"
+    highlight: "#FFF6E2"
+    surface: "#FFFFFF"
+    text: "#241A14"
+    text_muted: "#6E5F50"
+    text_secondary: "#6E5F50"
+    border: "#E6D8C2"
+    border_dark: "#C3B196"
+    border_light: "#F0E6D5"
+    success: "#4A7C59"
+    error: "#A83220"
+  module_intensity:
+    dictionary: "minimal"
+    encyclopedia: "balanced"
+    fauna: "rich"
+    videos: "balanced"

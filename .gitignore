@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.build-venv
+
+# Generated data (rebuilt by scripts/build.sh)
+data/*.json
+data/dictionary.tsv
+data/fauna.yaml
+data/ethnobotany.yaml
+
+# uv
+uv.lock
+
+# Build output (regenerated; source assets live in media/ and raw/)
+docs/
