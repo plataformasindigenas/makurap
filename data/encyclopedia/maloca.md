@@ -6,7 +6,10 @@ abstract: "Grande casa comunal redonda, com poste central, que abrigava família
 categories:
   - cultura material
 date: '2026-06-20'
-images: []
+images:
+- url: images/makurap_house_01.jpg
+  alt: Interior de uma maloca circular, rio Guaporé
+  credit: 'Foto: Jeffeson Tupari Makurap (CC BY-SA 4.0)'
 infobox: {}
 references:
   - caspar1953

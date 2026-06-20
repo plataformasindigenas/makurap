@@ -6,7 +6,10 @@ abstract: "Iniciativas recentes de fortalecimento da língua, incluindo o docume
 categories:
   - lingua
 date: '2026-06-20'
-images: []
+images:
+- url: images/makurap_people_02.jpg
+  alt: Criança Makurap à beira do rio Guaporé
+  credit: 'Foto: Jeffeson Tupari Makurap (CC BY-SA 4.0)'
 infobox: {}
 references:
   - isa-makurap

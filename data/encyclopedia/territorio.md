@@ -6,7 +6,10 @@ abstract: "Os Makurap vivem em três Terras Indígenas no sul de Rondônia: Rio 
 categories:
   - geografia
 date: '2026-06-20'
-images: []
+images:
+- url: images/makurap_guapore_01.jpg
+  alt: Rio Guaporé, Costa Marques (RO)
+  credit: 'Foto: Jônatas Justiniano Lima (CC BY-SA 4.0)'
 infobox: {}
 references:
   - isa-makurap

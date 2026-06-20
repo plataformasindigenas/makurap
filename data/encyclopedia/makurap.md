@@ -6,7 +6,13 @@ abstract: "Povo indígena de língua Tupí (ramo Tuparí) do sul de Rondônia, c
 categories:
   - geral
 date: '2026-06-20'
-images: []
+images:
+- url: images/makurap_isa_01.jpg
+  alt: Comunidade Makurap na aldeia
+  credit: 'Foto: Instituto Socioambiental — Povos Indígenas no Brasil (uso autorizado)'
+- url: images/makurap_people_01.jpg
+  alt: Preparo de peixe na aldeia Ricardo Franco
+  credit: 'Foto: Jeffeson Tupari Makurap (CC BY-SA 4.0)'
 infobox:
   Família linguística: "Tupí — ramo Tuparí"
   Estado: "Rondônia (Brasil)"

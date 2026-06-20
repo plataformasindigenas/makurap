@@ -6,7 +6,10 @@ abstract: "Uso do urucum (vermelho) e do genipapo (preto) na pintura do corpo; o
 categories:
   - cultura
 date: '2026-06-20'
-images: []
+images:
+- url: images/makurap_urucum_01.jpg
+  alt: Sementes de urucum (Bixa orellana), fonte do pigmento vermelho
+  credit: 'Foto: Leonardo Aguiar (CC BY 2.0)'
 infobox: {}
 references:
   - isa-makurap

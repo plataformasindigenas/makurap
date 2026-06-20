@@ -6,7 +6,10 @@ abstract: "Bebida fermentada de milho que está no centro das festas de reciproc
 categories:
   - ritual
 date: '2026-06-20'
-images: []
+images:
+- url: images/makurap_chicha_01.jpg
+  alt: Cuia de chicha ao pôr do sol no rio Guaporé
+  credit: 'Foto: Jeffeson Tupari Makurap (CC BY-SA 4.0)'
 infobox: {}
 references:
   - isa-makurap
