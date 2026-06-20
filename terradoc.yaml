@@ -38,16 +38,18 @@ theme:
   favicon: "images/favicon.svg"
   # Hero collage + module-card images. The template maps hero_images[i] to the
   # i-th enabled module (dictionary, encyclopedia, fauna, ethnobotany,
-  # bibliography, videos), so the order below follows that. These are the
-  # Makurap fauna/flora photos staged from media/images/.
-  hero_image: "images/makurap_fauna_01.jpg"
+  # bibliography, videos), so the order below follows that. People/culture/
+  # territory photos are community-uploaded Makurap images from Wikimedia
+  # Commons (CC BY-SA 4.0, by Jeffeson Tupari Makurap) and CC-licensed regional
+  # photos; fauna/flora cards keep a reused animal/plant photo. See CREDITS.md.
+  hero_image: "images/makurap_chicha_01.jpg"     # chicha at the Rio Guaporé sunset
   hero_images:
-    - "images/makurap_fauna_13.jpg"   # dictionary — gavião-real (harpia)
-    - "images/makurap_fauna_01.jpg"   # encyclopedia — onça
-    - "images/makurap_fauna_03.jpg"   # fauna — anta
-    - "images/makurap_flora_03.jpg"   # ethnobotany — urucum
-    - "images/makurap_fauna_10.jpg"   # bibliography — mutum
-    - "images/makurap_fauna_14.jpg"   # videos — jacaré
+    - "images/makurap_people_01.jpg"   # dictionary — Makurap men preparing fish
+    - "images/makurap_house_01.jpg"    # encyclopedia — round maloca interior
+    - "images/makurap_fauna_01.jpg"    # fauna — onça
+    - "images/makurap_urucum_01.jpg"   # ethnobotany — urucum (annatto) seeds
+    - "images/makurap_guapore_01.jpg"  # bibliography — Rio Guaporé territory
+    - "images/makurap_people_02.jpg"   # videos — daily life by the river
   hero_height: "large"
   hero_background: "weave"
   hero_motif: "weave"

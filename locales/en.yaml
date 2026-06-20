@@ -335,3 +335,15 @@ about_tools: "<p>This platform was built with open-source tools developed specif
 about_tool_terradoc: "Site generation framework for indigenous language documentation"
 about_tool_aptoro: "Data conversion and processing pipeline"
 about_tool_kodudo: "Template rendering engine"
+
+# Image credits
+about_credits_heading: "Image credits"
+about_credits: >
+  <p>The people, culture and territory photographs on the home page are images
+  of the Makurap themselves, uploaded to <a href="https://commons.wikimedia.org/wiki/Category:Macurapes">Wikimedia Commons</a>
+  by <strong>Jeffeson Tupari Makurap</strong> (CC&nbsp;BY-SA&nbsp;4.0) — using imagery that
+  comes from the community is a deliberate choice for this platform.</p>
+  <p>Rio Guaporé landscape by Jônatas Justiniano Lima (CC&nbsp;BY-SA&nbsp;4.0); urucum
+  (<em>Bixa orellana</em>) by Leonardo Aguiar (CC&nbsp;BY&nbsp;2.0). The fauna and
+  ethnobotany photos are reused from this project's Bororo and Enawenê-Nawê
+  platforms. Details in <code>CREDITS.md</code>.</p>
