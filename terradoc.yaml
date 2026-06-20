@@ -36,6 +36,18 @@ theme:
   preset: "terra"
   logo: "images/logo.svg"
   favicon: "images/favicon.svg"
+  # Hero collage + module-card images. The template maps hero_images[i] to the
+  # i-th enabled module (dictionary, encyclopedia, fauna, ethnobotany,
+  # bibliography, videos), so the order below follows that. These are the
+  # Makurap fauna/flora photos staged from media/images/.
+  hero_image: "images/makurap_fauna_01.jpg"
+  hero_images:
+    - "images/makurap_fauna_13.jpg"   # dictionary — gavião-real (harpia)
+    - "images/makurap_fauna_01.jpg"   # encyclopedia — onça
+    - "images/makurap_fauna_03.jpg"   # fauna — anta
+    - "images/makurap_flora_03.jpg"   # ethnobotany — urucum
+    - "images/makurap_fauna_10.jpg"   # bibliography — mutum
+    - "images/makurap_fauna_14.jpg"   # videos — jacaré
   hero_height: "large"
   hero_background: "weave"
   hero_motif: "weave"

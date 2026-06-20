@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Makurap">
+  <defs>
+    <clipPath id="r"><rect width="64" height="64" rx="14"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#241A14"/>
+  <g clip-path="url(#r)" stroke-linecap="round" fill="none" stroke-width="4">
+    <g stroke="#B5341F">
+      <line x1="-8" y1="22" x2="42" y2="72"/>
+      <line x1="8" y1="6" x2="58" y2="56"/>
+      <line x1="24" y1="-10" x2="74" y2="40"/>
+    </g>
+    <g stroke="#D98A2B">
+      <line x1="42" y1="-8" x2="-8" y2="42"/>
+      <line x1="58" y1="6" x2="8" y2="56"/>
+      <line x1="74" y1="24" x2="24" y2="74"/>
+    </g>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#241A14"/>
+  <circle cx="32" cy="32" r="5" fill="#F7F0E4"/>
+  <circle cx="32" cy="32" r="2.2" fill="#B5341F"/>
+</svg>

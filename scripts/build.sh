@@ -21,5 +21,7 @@ cp -f media/videos/*.mp4 docs/videos/ 2>/dev/null && \
   echo "  Staged $(ls media/videos/*.mp4 | wc -l) videos to docs/videos/"
 cp -f media/images/*.jpg docs/images/ 2>/dev/null && \
   echo "  Staged $(ls media/images/*.jpg | wc -l) reused photos to docs/images/"
+cp -f media/images/*.svg docs/images/ 2>/dev/null && \
+  echo "  Staged logo/favicon to docs/images/"
 echo ""
 echo "Open docs/index.html in your browser to preview the site."

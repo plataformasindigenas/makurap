@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Makurap">
+  <defs>
+    <clipPath id="round"><rect width="128" height="128" rx="26"/></clipPath>
+  </defs>
+  <rect width="128" height="128" rx="26" fill="#241A14"/>
+  <!-- marico weave: crosshatch net suggesting woven tucum fibre -->
+  <g clip-path="url(#round)" stroke-linecap="round" fill="none">
+    <g stroke="#B5341F" stroke-width="6" opacity="0.95">
+      <line x1="-24" y1="40" x2="88" y2="152"/>
+      <line x1="8" y1="24" x2="120" y2="136"/>
+      <line x1="40" y1="8" x2="152" y2="120"/>
+      <line x1="-8" y1="8" x2="136" y2="152"/>
+    </g>
+    <g stroke="#D98A2B" stroke-width="6" opacity="0.95">
+      <line x1="88" y1="-24" x2="-24" y2="88"/>
+      <line x1="120" y1="-8" x2="8" y2="104"/>
+      <line x1="152" y1="40" x2="40" y2="152"/>
+      <line x1="136" y1="8" x2="-8" y2="152"/>
+    </g>
+  </g>
+  <!-- central urucum seed -->
+  <circle cx="64" cy="64" r="13" fill="#241A14"/>
+  <circle cx="64" cy="64" r="9" fill="#F7F0E4"/>
+  <circle cx="64" cy="64" r="4" fill="#B5341F"/>
+</svg>
