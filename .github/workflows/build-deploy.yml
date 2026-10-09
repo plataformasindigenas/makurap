@@ -17,3 +17,5 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
       - run: bash scripts/build.sh
+      - name: Build must not modify source data
+        run: git diff --exit-code -- data/ || (echo "::error::the build changed files in data/"; exit 1)

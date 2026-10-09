@@ -2,7 +2,12 @@
 # These six recordings are community narratives. With the exception of the
 # creation narrative ("Surgimento do Mundo"), the named stories below are NOT
 # documented in the published literature and are treated here as oral sources
-# belonging to the Makurap community — DRAFT, pending consent and review.
+# belonging to the Makurap community.
+#
+# CONSENT: the Makurap community's consent covers all six recordings, for
+# publication online (confirmed by Tiago Tresoldi, 2026-10-09). Every record
+# carries `consent: approved` and `consent_scope: online`. A record without
+# `consent: approved` must not be published.
 #
 # The `youtube_id` field is reused by terradoc as the record key; here it holds
 # the local slug, and `source_url` points to the self-hosted file.
@@ -12,6 +17,8 @@
   source_url: "audio/surgimento-do-mundo.mp4"
   category: "Mito de origem"
   language: "Makurap"
+  consent: approved
+  consent_scope: online
   description: >-
     Narrativa da criação. Na tradição Makurap, dois irmãos primordiais surgem
     da pedra — Nambu, o criador silencioso, e Beüd — e os povos emergem da
@@ -22,6 +29,8 @@
   source_url: "audio/surgimento-da-pintura.mp4"
   category: "Narrativa"
   language: "Makurap"
+  consent: approved
+  consent_scope: online
   description: >-
     Relato sobre a origem da pintura corporal Makurap. (Registro comunitário,
     não documentado na literatura publicada.)
@@ -31,6 +40,8 @@
   source_url: "audio/tucum-e-marico.mp4"
   category: "Narrativa"
   language: "Makurap"
+  consent: approved
+  consent_scope: online
   description: >-
     O marico — bolsa de carregar tecida em fibra de tucum, trabalho das
     mulheres — é o artefato que define o "complexo cultural do marico" da região
@@ -41,6 +52,8 @@
   source_url: "audio/castanheira.mp4"
   category: "Narrativa"
   language: "Makurap"
+  consent: approved
+  consent_scope: online
   description: >-
     Narrativa sobre a castanheira (castanha-do-Brasil, *Bertholletia excelsa*),
     de grande importância econômica para o povo Makurap. (Registro comunitário.)
@@ -50,6 +63,8 @@
   source_url: "audio/payawi.mp4"
   category: "Narrativa"
   language: "Makurap"
+  consent: approved
+  consent_scope: online
   description: >-
     Narrativa tradicional Makurap. (Registro comunitário, não documentado na
     literatura publicada.)
@@ -59,6 +74,8 @@
   source_url: "audio/kaxuleu.mp4"
   category: "Narrativa"
   language: "Makurap"
+  consent: approved
+  consent_scope: online
   description: >-
     Narrativa tradicional Makurap. (Registro comunitário, não documentado na
     literatura publicada.)

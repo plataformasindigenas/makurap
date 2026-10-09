@@ -5,23 +5,15 @@ PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_DIR"
 echo "=== Makurap Build ==="
 echo ""
-# Regenerate source data from the BILingo deck + sibling-platform photos
-python3 scripts/prepare_dictionary.py
-python3 scripts/prepare_fauna_flora.py
-echo ""
+# data/ is SOURCE: nothing here may rewrite it (see scripts/seed/README.md).
 # terradoc build writes into docs/ but does not create it; ensure it exists so a
-# fresh checkout (docs/ is git-ignored) builds cleanly on CI / Cloudflare Pages.
-mkdir -p docs/fonts docs/images docs/audio
+# fresh checkout (docs/ is git-ignored) builds cleanly on CI.
+mkdir -p docs
 terradoc build --config terradoc.yaml
 echo ""
-# Stage self-hosted media (source of truth: media/). These are committed so the
-# build is self-contained and does not need the sibling repos at deploy time.
-mkdir -p docs/audio docs/images
-cp -f media/audio/*.mp4 docs/audio/ 2>/dev/null && \
-  echo "  Staged $(ls media/audio/*.mp4 | wc -l) oral-corpus recordings to docs/audio/"
-cp -f media/images/*.jpg docs/images/ 2>/dev/null && \
-  echo "  Staged $(ls media/images/*.jpg | wc -l) reused photos to docs/images/"
-cp -f media/images/*.svg docs/images/ 2>/dev/null && \
-  echo "  Staged logo/favicon to docs/images/"
+# static/ is copied verbatim into the site root (static/images -> /images,
+# static/audio -> /audio). It holds self-hosted media and is tracked in git.
+cp -r static/. docs/
+echo "  Copied static/ into docs/ ($(find static -type f | wc -l) files)"
 echo ""
 echo "Open docs/index.html in your browser to preview the site."

@@ -1,0 +1,102 @@
+- id: 1
+  name_indigenous: amenko
+  name_portuguese: onça
+  scientific_name: Panthera onca
+  info: Maior felino das Américas; nome de um dos clãs Makurap.
+  pic_link: images/makurap_fauna_01.jpg
+- id: 2
+  name_indigenous: takri
+  name_portuguese: onça-feroz
+  scientific_name: Panthera onca
+  info: Designação para a onça em sua forma mais perigosa.
+  pic_link: images/makurap_fauna_02.jpg
+- id: 3
+  name_indigenous: uax
+  name_portuguese: anta
+  scientific_name: Tapirus terrestris
+  info: Maior mamífero terrestre da região; caça apreciada.
+  pic_link: images/makurap_fauna_03.jpg
+- id: 4
+  name_indigenous: uro
+  name_portuguese: tatu
+  scientific_name: Dasypus novemcinctus
+  info: Tatu-galinha, caça comum.
+  pic_link: images/makurap_fauna_04.jpg
+- id: 5
+  name_indigenous: wiriyo
+  name_portuguese: tatu-canastra
+  scientific_name: Priodontes maximus
+  info: O maior dos tatus.
+  pic_link: images/makurap_fauna_05.jpg
+- id: 6
+  name_indigenous: atax
+  name_portuguese: paca
+  scientific_name: Cuniculus paca
+  info: Roedor noturno muito apreciado na caça.
+  pic_link: images/makurap_fauna_06.jpg
+- id: 7
+  name_indigenous: utu
+  name_portuguese: veado
+  scientific_name: Mazama americana
+  info: Veado-mateiro.
+  pic_link: images/makurap_fauna_07.jpg
+- id: 8
+  name_indigenous: arembo
+  name_portuguese: macaco-preto
+  scientific_name: Sapajus apella
+  info: Macaco-prego.
+  pic_link: images/makurap_fauna_08.jpg
+- id: 9
+  name_indigenous: karoroy
+  name_portuguese: macaco-velho
+  scientific_name: Sapajus apella
+  info: Termo para o macaco-prego adulto.
+  pic_link: images/makurap_fauna_09.jpg
+- id: 10
+  name_indigenous: mitõ
+  name_portuguese: mutum
+  scientific_name: Mitu tuberosum
+  info: Ave de caça; nome de clã (Mitum).
+  pic_link: images/makurap_fauna_10.jpg
+- id: 11
+  name_indigenous: payo
+  name_portuguese: pato
+  scientific_name: Cairina moschata
+  info: Pato-do-mato.
+  pic_link: images/makurap_fauna_11.jpg
+- id: 12
+  name_indigenous: paliõn
+  name_portuguese: gavião
+  scientific_name: Rupornis magnirostris
+  info: Gavião comum.
+  pic_link: images/makurap_fauna_12.jpg
+- id: 13
+  name_indigenous: pãriõ xato
+  name_portuguese: gavião-real
+  scientific_name: Harpia harpyja
+  info: A maior águia das Américas.
+  pic_link: images/makurap_fauna_13.jpg
+- id: 14
+  name_indigenous: wato
+  name_portuguese: jacaré
+  scientific_name: Caiman yacare
+  info: Jacaré-do-pantanal/regional.
+  pic_link: images/makurap_fauna_14.jpg
+- id: 15
+  name_indigenous: xat
+  name_portuguese: jararaca / cobra
+  scientific_name: Viperidae
+  info: Serpente peçonhenta; nome de clã (Xát).
+  pic_link: images/makurap_fauna_15.jpg
+- id: 16
+  name_indigenous: andole
+  name_portuguese: peixe pintado
+  scientific_name: Pseudoplatystoma sp.
+  info: Grande bagre de couro pintado.
+  pic_link: images/makurap_fauna_16.jpg
+- id: 17
+  name_indigenous: njalule
+  name_portuguese: borboleta
+  scientific_name: Lepidoptera
+  info: Borboleta.
+  pic_link: images/makurap_fauna_17.jpg

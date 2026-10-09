@@ -1,0 +1,45 @@
+- id: 1
+  name_indigenous: arao
+  name_portuguese: castanha-do-Brasil
+  scientific_name: Bertholletia excelsa
+  usage: alimento, comércio
+  descriptions_of_use: Castanha-do-Pará — coleta de grande importância econômica.
+- id: 2
+  name_indigenous: wirixa
+  name_portuguese: açaí
+  scientific_name: Euterpe oleracea
+  usage: alimento
+  descriptions_of_use: Palmeira cujo fruto é coletado pelos homens.
+  pic_link: images/makurap_flora_02.jpg
+- id: 3
+  name_indigenous: iko
+  name_portuguese: urucum
+  scientific_name: Bixa orellana
+  usage: tinta corporal, ritual
+  descriptions_of_use: Fonte do pigmento vermelho; nomeia o clã Ikô.
+  pic_link: images/makurap_flora_03.jpg
+- id: 4
+  name_indigenous: arawu
+  name_portuguese: amendoim
+  scientific_name: Arachis hypogaea
+  usage: alimento
+  descriptions_of_use: Cultivado nas roças.
+  pic_link: images/makurap_flora_04.jpg
+- id: 5
+  name_indigenous: orokone
+  name_portuguese: tucumã
+  scientific_name: Astrocaryum aculeatum
+  usage: fibra, alimento
+  descriptions_of_use: Palmeira cuja fibra é usada para tecer o marico.
+- id: 6
+  name_indigenous: mbeku
+  name_portuguese: cana-de-açúcar
+  scientific_name: Saccharum officinarum
+  usage: alimento
+  descriptions_of_use: Cultivada nas roças.
+- id: 7
+  name_indigenous: ndutnda
+  name_portuguese: cacau
+  scientific_name: Theobroma cacao
+  usage: alimento
+  descriptions_of_use: Cacau nativo.
